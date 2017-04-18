@@ -1,13 +1,12 @@
 #!/bin/bash
 
-# Update the user and name variables, user is your K-State eID.
-# Also use update the email id to get notification about the job.
+# Update the 'user' and 'name' variables, 'eID' is your K-State eID.
 user=eID
 name=projectName
-#$ -m abe
 
 # Update beocat resources request
-#$ -l h_rt=13:00:00 -l mem=32G -l nokillable -cwd -j y
+#$ -l h_rt=24:00:00 -l mem=32G
+#$ -m abe -l nokillable -cwd -j y
 
 
 ## #######################################
