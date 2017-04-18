@@ -30,7 +30,7 @@ LEFT JOIN plant ON dna.tissue_id = plant.plant_id
 INNER JOIN barcodes ON dna.well_A01 = barcodes.well_A01
 AND gbs.plexing LIKE barcodes.`set`
 WHERE
-	gbs.gbs_id LIKE "GBS0004"
+	gbs.project LIKE "tauschiiRIL"
 ORDER BY
 	gbs.gbs_id,
 	dna.well_01A ASC
