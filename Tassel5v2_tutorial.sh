@@ -4,7 +4,7 @@
 # Also use update the email id to get notification about the job.
 user=eID
 name=projectName
-#$ -m abe -M eID@ksu.edu
+#$ -m abe
 
 # Update beocat resources request
 #$ -l h_rt=13:00:00 -l mem=32G -l nokillable -cwd -j y
