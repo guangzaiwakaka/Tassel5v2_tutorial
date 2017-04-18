@@ -7,7 +7,7 @@ name=projectName
 #$ -m abe -M eID@ksu.edu
 
 # Update beocat resources request
-#$ -l h_rt=72:00:00 -l mem=64G -l nokillable -cwd -j y
+#$ -l h_rt=13:00:00 -l mem=32G -l nokillable -cwd -j y
 
 
 ## #######################################
